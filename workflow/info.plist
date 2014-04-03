@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>bitbyteyum.com.lifx-alfred</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>A1A40D84-17B8-41D7-9C89-CA2165A6695D</key>
+		<array/>
+	</dict>
+	<key>createdby</key>
+	<string>Brian Anderson</string>
+	<key>description</key>
+	<string>Control Lifx Lights</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Lifx</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>lifx</string>
+				<key>runningsubtext</key>
+				<string>...</string>
+				<key>script</key>
+				<string>/usr/bin/ruby ./main.rb {query}</string>
+				<key>subtext</key>
+				<string>Lifx for life</string>
+				<key>title</key>
+				<string>command</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>A1A40D84-17B8-41D7-9C89-CA2165A6695D</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>A1A40D84-17B8-41D7-9C89-CA2165A6695D</key>
+		<dict>
+			<key>ypos</key>
+			<real>50</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://bitbyteyum.com</string>
+</dict>
+</plist>
